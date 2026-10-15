@@ -1,0 +1,19 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend generated files
+node_modules/
+dist/
